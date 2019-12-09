@@ -1,7 +1,6 @@
 import random
 import csv
-attributes = [['Sunny','Rainy’], ['Warm','Cold’], ['Normal','High'],
-              ['Strong','Weak’], ['Warm','Cool’], ['Same','Change']]
+attributes =[["Sunny","Rainy"], ["Warm","Cold"], ["Normal","High"],["Strong","Weak"], ["Warm","Cool"], ["Same","Change"]]
 num_attributes = len(attributes)
 print (" \n The most general hypothesis : ['?','?','?','?','?','?']\n")
 print ("\n The most specific hypothesis : ['0','0','0','0','0','0']\n")
