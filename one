@@ -6,7 +6,8 @@ num_attributes = len(attributes)
 print (" \n The most general hypothesis : ['?','?','?','?','?','?']\n")
 print ("\n The most specific hypothesis : ['0','0','0','0','0','0']\n")
 a = []
-print("\n The Given Training Data Set \n")with open('t.csv', 'r') as csvFile:
+print("\n The Given Training Data Set \n")
+with open('t.csv', 'r') as csvFile:
     reader = csv.reader(csvFile)
     for row in reader:
         a.append (row)
